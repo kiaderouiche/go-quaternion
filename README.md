@@ -1,3 +1,6 @@
 # go-quaternion
 
-golang package for multiplying, rotating and interpolating arrays of quaternion
+golang package include:
+
+* Quaternion algebra
+* Quaternion arrays: multiplying, rotating and interpolating arrays
