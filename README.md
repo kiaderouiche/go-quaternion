@@ -1,5 +1,7 @@
 # go-quaternion
 
+***0.0.1pre1***
+
 golang package include:
 
 * Quaternion algebra
