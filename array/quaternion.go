@@ -8,27 +8,55 @@ it can be created simply using slice.
 
 import "math"
 
+
 //Inverse of quaternion array q
 func Inverse(q []float64) {
 
 }
 
+
+func Amplitude(){
+
+}
+
+//Normalize quaternion array q or array list to unit quaternions
+func Norm(){
+
+}
+
 //
-func mul(){
+func Division(){
+
+}
+
+//
+func Mul(){
 
 }
 
 //Exponential of a quaternion array
-func exp(){
+func Exp(){
 
 }
 
 //Neprien logarithm of a quaternion array
-func ln(){
+func Ln(){
+
+}
+
+//Real power of a quaternion array
+func Pow(){
+
+}
+
+//Rotate vector or array of vectors v by quaternion q
+func Rotate(q []float64) {
 
 }
 
 //
-func rotation(q []float64) {
+func Toaxisangle(){
 
 }
+
+//
