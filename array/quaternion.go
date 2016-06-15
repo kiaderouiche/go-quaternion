@@ -8,9 +8,8 @@ it can be created simply using slice.
 
 import "math"
 
-
 //Inverse of quaternion array q
-func Inverse(q []float64) {
+func Inverse() {
 
 }
 
