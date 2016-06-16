@@ -8,6 +8,10 @@ it can be created simply using slice.
 
 import "math"
 
+type qMatrix struct{
+
+}
+
 //Inverse of quaternion array q
 func Inverse() {
 
