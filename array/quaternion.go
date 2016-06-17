@@ -9,16 +9,16 @@ it can be created simply using slice.
 import "math"
 
 type qMatrix struct{
-
+	qMat []float
 }
 
 //Inverse of quaternion array q
-func Inverse() {
+func (qm *qMatrix) Inverse() {
 
 }
 
 
-func Amplitude(){
+func (qm *qMatrix) Amplitude(){
 
 }
 
