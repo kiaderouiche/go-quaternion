@@ -12,6 +12,11 @@ type qMatrix struct{
 	qMat []float
 }
 
+//
+func (qm *qMatrix) ArrayDot(){
+
+}
+
 //Inverse of quaternion array q
 func (qm *qMatrix) Inverse() {
 
@@ -23,7 +28,7 @@ func (qm *qMatrix) Amplitude(){
 }
 
 //Normalize quaternion array q or array list to unit quaternions
-func Norm(){
+func (qm *qMatrix) Norm(){
 
 }
 
@@ -38,17 +43,17 @@ func Mul(){
 }
 
 //Exponential of a quaternion array
-func Exp(){
+func (qm *qMatrix) Exp(){
 
 }
 
 //Neprien logarithm of a quaternion array
-func Ln(){
+func (qm *qMatrix) Ln(){
 
 }
 
 //Real power of a quaternion array
-func Pow(){
+func (qm *qMatrix) Pow(){
 
 }
 
@@ -61,5 +66,3 @@ func Rotate(q []float64) {
 func Toaxisangle(){
 
 }
-
-//
