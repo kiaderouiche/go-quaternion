@@ -1,6 +1,6 @@
 # go-quaternion (Experimental)
 
-***0.0.1pre1***
+***-1.-1.1pre1***
 
 golang package include:
 
