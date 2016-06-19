@@ -7,6 +7,8 @@ it can be created simply using slice.
 */
 
 import "math"
+import "github.com/gonum/matrix/mat64"
+
 
 type qMatrix struct {
 	qMat []float64
