@@ -1,4 +1,4 @@
-# go-quaternion
+# go-quaternion (Experimental)
 
 ***0.0.1pre1***
 
