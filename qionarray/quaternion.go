@@ -31,9 +31,7 @@ func (qm *qMatrix) Norm([]float64) []float64 {}
 func Mul() {}
 
 //Exponential of a quaternion array
-func (qm *qMatrix) Exp() {
-
-}
+func (qm *qMatrix) Exp() {}
 
 //Neprien logarithm of a quaternion array
 func (qm *qMatrix) Ln() {}
