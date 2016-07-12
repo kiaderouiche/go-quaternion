@@ -27,8 +27,8 @@ func (qm *qMatrix) Amplitude(q []float64) []float64 {}
 //Normalize quaternion array q or array list to unit quaternions
 func (qm *qMatrix) Norm([]float64) []float64 {}
 
-//
-func (qm *qMatrix) Rotate([]float64) []{}
+//Rotate vector or array of vectors v by quaternion qm
+func (qm *qMatrix) Rotate([]float64, []float64) []{}
 //
 func Mul() {}
 
