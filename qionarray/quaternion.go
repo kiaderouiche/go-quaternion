@@ -28,6 +28,8 @@ func (qm *qMatrix) Amplitude(q []float64) []float64 {}
 func (qm *qMatrix) Norm([]float64) []float64 {}
 
 //
+func (qm *qMatrix) Rotate([]float64) []{}
+//
 func Mul() {}
 
 //Exponential of a quaternion array
