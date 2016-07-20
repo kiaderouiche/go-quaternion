@@ -7,6 +7,7 @@ it can be created simply using slice.
 */
 
 import "math"
+import "time"
 import "github.com/gonum/matrix/mat64"
 
 
@@ -43,6 +44,8 @@ func (qm *qMatrix) Pow() {}
 
 //Rotate vector or array of vectors v by quaternion q
 func Rotate(q []float64) {}
+//
+func (qm *qMatrix) Slerp([] float64){}
 
 //
 func Toaxisangle() {}
