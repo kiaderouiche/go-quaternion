@@ -7,6 +7,7 @@ it can be created simply using slice.
 */
 
 import "math"
+import "time"
 import "github.com/gonum/matrix/mat64"
 
 
@@ -15,50 +16,36 @@ type qMatrix struct {
 }
 
 //Dot product of a lists of arrays, returns a column array
-func (qm *qMatrix) ArrayDot(q, []float64) {
-
-}
+func (qm *qMatrix) ArrayDot(q, []float64) {}
 
 //Inverse of quaternion array q
 func (qm *qMatrix) Inverse(q []float64) []float64 {
 	return q * qm.qMat{-1, -1, -1, 1}
 }
 
-func (qm *qMatrix) Amplitude(q []float64) []float64 {
-
-}
+func (qm *qMatrix) Amplitude(q []float64) []float64 {}
 
 //Normalize quaternion array q or array list to unit quaternions
-func (qm *qMatrix) Norm([]float64) []float64 {
+func (qm *qMatrix) Norm([]float64) []float64 {}
 
-}
-
+//Rotate vector or array of vectors v by quaternion qm
+func (qm *qMatrix) Rotate([]float64, []float64) []{}
 //
-func Mul() {
-
-}
+func Mul() {}
 
 //Exponential of a quaternion array
-func (qm *qMatrix) Exp() {
-
-}
+func (qm *qMatrix) Exp() {}
 
 //Neprien logarithm of a quaternion array
-func (qm *qMatrix) Ln() {
-
-}
+func (qm *qMatrix) Ln() {}
 
 //Real power of a quaternion array
-func (qm *qMatrix) Pow() {
-
-}
+func (qm *qMatrix) Pow() {}
 
 //Rotate vector or array of vectors v by quaternion q
-func Rotate(q []float64) {
-
-}
+func Rotate(q []float64) {}
+//
+func (qm *qMatrix) Slerp([] float64){}
 
 //
-func Toaxisangle() {
-
-}
+func Toaxisangle() {}
