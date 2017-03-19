@@ -8,7 +8,7 @@ it can be created simply using slice.
 
 import "math"
 import "time"
-import "github.com/gonum/matrix/mat64"
+import "github.com/gonum/matrix"
 
 
 type qMatrix struct {
